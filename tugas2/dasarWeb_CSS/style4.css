@@ -1,0 +1,28 @@
+.satu{
+    color: red;
+    font-family: sans-serif;
+    font-style: normal;
+}
+.dua{
+    color: blue;
+    font-size: 20pt;
+    font-style: italic;
+}
+.tiga{
+    color: green;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.link{
+    font-size: 20pt;
+}
+.link:link{
+    color: blue;
+}
+.link:hover{
+    color: red;
+}
+.link:visited{
+    color: green;
+}

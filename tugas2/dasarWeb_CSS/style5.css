@@ -1,0 +1,47 @@
+.satu{
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+}
+.par1{
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.static{
+    position:static;
+    border: 3px solid green;
+}
+.relative{
+    position: relative;
+    border: 3px solid green;
+    left: 30px;
+}
+.fixed{
+    position: fixed;
+    border: 3px solid green;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+}
+.relative1{
+    position:relative;
+    border: 3px solid green;
+    width: 400px;
+    height: 200px;
+}
+.absolute{
+    position: absolute;
+    border: 3px solid green;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+}
+.sticky{
+    position: sticky;
+    border: 3px solid green;
+    top: 0;
+    position: -webkit-sticky;
+    background-color: yellow;
+}
